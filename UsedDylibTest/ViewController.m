@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <dlfcn.h>
 #import <mach-o/dyld.h>
+#import "Person.h"
 //#import <DylibTest/Person.h>
 
 
@@ -21,11 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self onDlopenLoadAtPathAction1:nil];
+//    [self onDlopenLoadAtPathAction1:nil];
     
-//    Person *person = [[Person alloc] init];
+    Person *person = [[Person alloc] init];
 //    person.name = @"hello";
-//    [person printName];
+    [person printName];
     
     
     Class rootClass = NSClassFromString(@"Person");

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Person.h"
 //! Project version number for DylibTest.
 FOUNDATION_EXPORT double DylibTestVersionNumber;
 
